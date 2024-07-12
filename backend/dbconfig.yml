@@ -1,0 +1,6 @@
+development:
+    dialect: mysql
+    datasource: root@/events_db?parseTime=true
+    dir: migrations
+    table: migrations
+
