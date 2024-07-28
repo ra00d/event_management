@@ -8,9 +8,9 @@ const NavBar = () => {
 			<MobileMenu />
 			<nav className="hidden md:block">
 				<div className=" mx-auto flex justify-between items-center">
-					<div className=" font-bold text-lg">
+					<Link to="/" className=" font-bold text-lg">
 						<strong className="text-red-500 text-3xl">M</strong>Event
-					</div>
+					</Link>
 					<div className="space-x-4">
 						<Link to="/events" className="">
 							Events

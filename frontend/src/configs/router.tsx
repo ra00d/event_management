@@ -11,7 +11,11 @@ const router = createBrowserRouter([
 		element: <Layout />,
 		children: [
 			{
-				path: "/events",
+				index: true,
+				element: <Events />,
+			},
+			{
+				path: "events",
 				element: <Events />,
 			},
 			{
